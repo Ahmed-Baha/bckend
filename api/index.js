@@ -10,5 +10,4 @@ app.get('/api',(req,res)=>{
 })
 
 
-
-app.listen(PORT,()=>console.log(`stater server ${PORT}`))
+module.exports = app;
